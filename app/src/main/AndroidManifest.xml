@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.materialdesigncoures">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".material.MainActivity" />
+        <activity android:name=".material.SharedElement" />
+        <activity android:name=".otheranimation.OtherAnimation" />
+        <activity android:name=".otheranimation.FrameAni" />
+        <activity android:name=".otheranimation.Tween" />
+        <activity android:name=".otheranimation.Translate" />
+        <activity android:name=".otheranimation.Interpolter" />
+        <activity android:name=".material.AnimationMaterial" />
+        <activity android:name=".notification.NotificationMain" />
+        <activity android:name=".notification.SimpleActivity" />
+        <activity android:name=".notification.MultipalNotification" />
+        <activity android:name=".notification.NotiFication" />
+        <activity android:name=".notification.custom.NotiFicationCustom" />
+        <activity android:name=".notification.custom.CourseNotification" />
+        <activity android:name=".notification.custom.CustomNotification" />
+        <activity android:name=".notification.custom.StopService" />
+        <activity android:name=".widget.CreateWidget" />
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service android:name=".notification.custom.ServiceNotification" />
+
+        <receiver android:name=".widget.AppWidgetClass">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+
+        </receiver>
+    </application>
+
+
+</manifest>

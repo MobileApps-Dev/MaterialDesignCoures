@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+
+    <style name="AppTheme" parent="MatrialTheme" />
+
+    <style name="MatrialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--<item name="android:colorControlHighlight">@color/color_test</item>-->
+        <!--&lt;!&ndash;<item name="android:windowContentTransitions">true</item>&ndash;&gt;-->
+
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+
+    </style>
+
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+    </style>
+
+    <style name="PopUpTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#55f321</item>
+        <item name="android:background">#bc7a47</item>
+
+    </style>
+
+</resources>

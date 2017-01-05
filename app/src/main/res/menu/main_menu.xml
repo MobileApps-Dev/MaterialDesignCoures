@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/linear_vertical"
+        android:orderInCategory="100"
+        android:title="LinearVertical"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/linear_horizontal"
+        android:orderInCategory="100"
+        android:title="LinearHorizontal"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/grid"
+        android:orderInCategory="100"
+        android:title="Grid"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/stargged_vertical"
+        android:orderInCategory="100"
+        android:title="Stargged Vertical"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/stargged_horizontal"
+        android:orderInCategory="100"
+        android:title="Stargged Horizontal"
+        app:showAsAction="never"></item>
+</menu>

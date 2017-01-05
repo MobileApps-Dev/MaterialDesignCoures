@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb596</color>
+    <color name="colorPrimaryDark">#09df54</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="gry_700">#616161    </color>
+    <color name="gry_500">#9E9E9E</color>
+    <color name="gry_600">#757575</color>
+
+    <color name="color_test">#02ece4</color>
+
+
+</resources>
